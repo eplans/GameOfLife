@@ -22,5 +22,9 @@ Read proposal - repeatedly.
 To tell Brian:
 
 1. Game of Life
+	lit review - paper for Treviso Conference http://www.studiomusicatreviso.it/icnmc/icnmc.php
 
-2. 
+2. Stripped down "audio engine"
+
+3. "Writing snippets"  - constantly writing music that could be played by the engine.
+
