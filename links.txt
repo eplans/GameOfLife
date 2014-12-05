@@ -1,0 +1,7 @@
+LINKS
+
+Jun Hee Lee:  Conway music (2012) - http://www.junheelee.com/pf/works.html
+				java jsyn
+
+Jim Bumgardner: jbum / syd - https://github.com/jbum/Syd
+				also, A musical realization of the motion graphics of John Whitney as described in his book "digital harmony"  - http://whitneymusicbox.org/

@@ -1,0 +1,448 @@
+From jmsl at music.columbia.edu  Mon Jan  3 11:13:15 2011
+From: jmsl at music.columbia.edu (Java Music Specification Language)
+Date: Mon, 03 Jan 2011 11:13:15 -0500
+Subject: [jmsl] Java Music Systems at NYU, final projects Fall 2010
+Message-ID: <mailman.416.1294071216.191.jmsl@music.columbia.edu>
+
+On Dec 7, 2010 Nick Didkovsky?s Java Music Systems class in the Music 
+Technology Department at NYU?s Steinhard School met to present final 
+projects.
+All projects were programmed in Java and used either Java Music 
+Specification Language or JSyn or both.
+A summary of each of the projects follows. Some are applets and provide 
+a URL where you can try them out.
+Enjoy!
+Nick Didkovsky
+
+Ali Nazima Ergun - Sonic Game of Life
+Computer generated music often takes advantage of interesting mathematical
+principles, series and algorithms (such as Fibonacci series, or the 
+Mandelbrot set), to explore sound that can be generated from 
+mathematically interesting data sets. Game of Life, a "cellular 
+automaton" devised by British mathematician John Horton Conway is an 
+example I have decided to explore in terms of sonic opportunities for 
+this project.
+https://files.nyu.edu/ane220/public/JavaMusic2010/final.html
+
+
+Braxton Boren ? Project Gutenberg Sonifier
+This is an applet designed to generate background music to go along with 
+a book. To input your book, go to Project Gutenberg and find the URL of 
+a .html or .txt version of any text file. Input the URL into the applet 
+to hear the text sonified.
+https://files.nyu.edu/bbb259/public/braxtonboren/programmusic.html
+
+
+Brandon Glasgow ? Pyramid Scheme
+Pyramid Scheme is a self altering compositional program created using 
+the Java-based Music Systems JMSL, JSyn, and Wire. It uses a set melody 
+and builds layers on top of it. The following layers can either create 
+new melodies or alter the melodies in layers below them. Each layer is 
+shorter than the previous layer, so that when the entire piece is 
+played, the music follows a pyramid-like structure.
+
+
+Marc Harbatkin - A Probability Platform
+The Probability Platform is intended to be a vehicle used to explore the 
+role and effect of probability in the generation of music. As such, it 
+lays the foundation of an infrastructure that employs both JSYN and JMSL 
+to generate and modify a stream of music based on a process of random 
+selection that governed by the interactive selection of distributions 
+and their associated parameter values.
+Source code:
+https://files.nyu.edu/mph303/public/JavaMusicSystems/JMSProject
+
+
+Alan Johnson ? A Java System For Scoring And Producing Music Using 
+Dynamic Tuning
+In its simplest sense, my project is a tuning library for converting 
+pitch to frequency, subject to a given tuning. The most interesting 
+aspect of this library is that it facilitates gradual changes or 
+modulations between tunings, a process known as dynamic tuning. 
+Specifically, the project focuses on the tunings used in common practice 
+era music, which are based the concept of diatonic function. I also 
+created a file format for describing musical events and tuning changes, 
+a parser for this file format, and an application that uses JMSL and 
+JSyn to render compositions into dynamically
+
+
+Trevor Murray - Trevor?s Super Special Sentence Sonifier
+I created a Java applet that turns words into a piece of music. The user 
+provides the sentences and selects either a major or minor tonality, and 
+the applet does the rest. Each letter corresponds to a generated note, 
+determining both the note?s pitch and duration. A complete score of the 
+generated piece is is displayed using JMSL?s Score.
+
+
+Kimberly Powell - Photo Music
+The purpose of my final project was to take a photograph chosen by a 
+user of my Java program and create randomly generated music. This music 
+would be created by taking data values from the picture and using them 
+with JMSL to create music notes of certain pitches. The music would play 
+back to the user as it was being generated using an instrument 
+previously designed and written into the source code of my program. The 
+user could also save this music to a .WAV file.
+
+
+Kevin Salchert ? Game Engine Tester
+Kevin developed some proof-of-concept sound effects for a game engine 
+that solved common problems such as footsteps getting closer and farther 
+away from the user, engines revving, accelerating, and decelerating, 
+with efficiency and veracity as paramount design concerns.
+
+
+Kenneth Swan - JMSL Melodic Line Generator
+A JMSL based program that randomly produces a different melodic line of 
+music every time it is run. This line can be generated in a variety of 
+keys, but is designed to always make sense melodically depending on 
+which key is chosen. In this way a new unique piece of music is written 
+every time, but always sounds melodically correct.
+
+
+Ross Ziegler ? JSimon Memory Game
+Try to follow the pattern of blinking lights/beeping sounds for as long 
+as you can. If you can do it long enough, you win!
+https://files.nyu.edu/rz463/public/JavaMusicSystems/JSimon/
+
+
+Eric Humphrey ? Soniflyer: Making Generative Music from Real-time 
+Twitter Activity
+An applet is developed to observer real user behavior of Twitter to 
+create both a dynamic and organic generative music application. The 
+application listens for new status as they are posted in a set of 
+pre-defined set of location throughout the globe. Users interactively 
+assign a different location source to one of five channels, each 
+offering slightly different JSyn patches and note generation algorithms
+http://ejhumphrey.com/soniflyer-launch.html
+
+
+Tyler Sawyer - Self-Modifying Score
+My objective with this final project was to build a single measure in 
+JScore and have it modify itself every single time it repeats. It will 
+repeat many times, with the tempo increasing each time. As it repeats, 
+attributes of both the notes and the JSyn Instrument will be manipulated 
+as well.
+https://files.nyu.edu/tws233/public/JavaMusicSystems/FinalProject.html
+
+
+Andreas Sprotte-Hansen ? Wave Shaping
+The initial idea for this project was to let the user create the content 
+of a waveform from scratch and be able to manipulate it by a certain set 
+of parameters. It is meant as an interactive tool that takes sound from 
+a basic raw shape and turns it into sounds with complex textures and 
+some interesting synthesis results. In the application, the user is able 
+to choose a waveform to use as the table of samples to manipulate. A 
+number of different parameters are available for the use to manipulate 
+the chosen table with. It is meant as a real-time synthesis tool where 
+you can alter the sound while you're hearing it.
+
+
+Oriol Nieto ? Guitaptop: Adding Expression to Laptop Generated Music
+We present a new instrument called Guitaptop that synthesizes music by 
+making use of an accelerometer and a mouse trackpad. This instrument 
+will enhance compositions with richer expression by creating music by 
+tilting the laptop and sliding fingers on the trackpad instead of just 
+pressing buttons. This instrument can create different recordings by 
+putting them into different tracks. It also allows to save the 
+composition as a wave file and to play some background beats to get 
+inspiration while creating a new piece. Future work should be focused on 
+creating an Applet out of it to have an online version of the instrument 
+and to be able to choose from different sounds, and add other new features.
+
+
+From jmsl at music.columbia.edu  Mon Jan  3 14:01:25 2011
+From: jmsl at music.columbia.edu (Java Music Specification Language)
+Date: Mon, 3 Jan 2011 19:01:25 +0000
+Subject: [jmsl] Java Music Systems at NYU, final projects Fall 2010
+In-Reply-To: <mailman.416.1294071216.191.jmsl@music.columbia.edu>
+References: <mailman.416.1294071216.191.jmsl@music.columbia.edu>
+Message-ID: <mailman.421.1294081310.191.jmsl@music.columbia.edu>
+
+Hello Nick, 
+we havn't met but you might recognise my name from taking a trial registration for jmsl. I'm hoping we may get to meet at the Virtual Scoring for piano event Art Clay is organising later this year. 
+
+Wow, these look like brilliant student projects, thanks for posting them. You are clearly doing great things at NYU! 
+
+All the best for 2011, 
+
+John Eacott
+
+
+On 3 Jan 2011, at 16:13, Java Music Specification Language wrote:
+
+> On Dec 7, 2010 Nick Didkovsky?s Java Music Systems class in the Music Technology Department at NYU?s Steinhard School met to present final projects.
+> All projects were programmed in Java and used either Java Music Specification Language or JSyn or both.
+> A summary of each of the projects follows. Some are applets and provide a URL where you can try them out.
+> Enjoy!
+> Nick Didkovsky
+> 
+> Ali Nazima Ergun - Sonic Game of Life
+> Computer generated music often takes advantage of interesting mathematical
+> principles, series and algorithms (such as Fibonacci series, or the Mandelbrot set), to explore sound that can be generated from mathematically interesting data sets. Game of Life, a "cellular automaton" devised by British mathematician John Horton Conway is an example I have decided to explore in terms of sonic opportunities for this project.
+> https://files.nyu.edu/ane220/public/JavaMusic2010/final.html
+> 
+> 
+> Braxton Boren ? Project Gutenberg Sonifier
+> This is an applet designed to generate background music to go along with a book. To input your book, go to Project Gutenberg and find the URL of a .html or .txt version of any text file. Input the URL into the applet to hear the text sonified.
+> https://files.nyu.edu/bbb259/public/braxtonboren/programmusic.html
+> 
+> 
+> Brandon Glasgow ? Pyramid Scheme
+> Pyramid Scheme is a self altering compositional program created using the Java-based Music Systems JMSL, JSyn, and Wire. It uses a set melody and builds layers on top of it. The following layers can either create new melodies or alter the melodies in layers below them. Each layer is shorter than the previous layer, so that when the entire piece is played, the music follows a pyramid-like structure.
+> 
+> 
+> Marc Harbatkin - A Probability Platform
+> The Probability Platform is intended to be a vehicle used to explore the role and effect of probability in the generation of music. As such, it lays the foundation of an infrastructure that employs both JSYN and JMSL to generate and modify a stream of music based on a process of random selection that governed by the interactive selection of distributions and their associated parameter values.
+> Source code:
+> https://files.nyu.edu/mph303/public/JavaMusicSystems/JMSProject
+> 
+> 
+> Alan Johnson ? A Java System For Scoring And Producing Music Using Dynamic Tuning
+> In its simplest sense, my project is a tuning library for converting pitch to frequency, subject to a given tuning. The most interesting aspect of this library is that it facilitates gradual changes or modulations between tunings, a process known as dynamic tuning. Specifically, the project focuses on the tunings used in common practice era music, which are based the concept of diatonic function. I also created a file format for describing musical events and tuning changes, a parser for this file format, and an application that uses JMSL and JSyn to render compositions into dynamically
+> 
+> 
+> Trevor Murray - Trevor?s Super Special Sentence Sonifier
+> I created a Java applet that turns words into a piece of music. The user provides the sentences and selects either a major or minor tonality, and the applet does the rest. Each letter corresponds to a generated note, determining both the note?s pitch and duration. A complete score of the generated piece is is displayed using JMSL?s Score.
+> 
+> 
+> Kimberly Powell - Photo Music
+> The purpose of my final project was to take a photograph chosen by a user of my Java program and create randomly generated music. This music would be created by taking data values from the picture and using them with JMSL to create music notes of certain pitches. The music would play back to the user as it was being generated using an instrument previously designed and written into the source code of my program. The user could also save this music to a .WAV file.
+> 
+> 
+> Kevin Salchert ? Game Engine Tester
+> Kevin developed some proof-of-concept sound effects for a game engine that solved common problems such as footsteps getting closer and farther away from the user, engines revving, accelerating, and decelerating, with efficiency and veracity as paramount design concerns.
+> 
+> 
+> Kenneth Swan - JMSL Melodic Line Generator
+> A JMSL based program that randomly produces a different melodic line of music every time it is run. This line can be generated in a variety of keys, but is designed to always make sense melodically depending on which key is chosen. In this way a new unique piece of music is written every time, but always sounds melodically correct.
+> 
+> 
+> Ross Ziegler ? JSimon Memory Game
+> Try to follow the pattern of blinking lights/beeping sounds for as long as you can. If you can do it long enough, you win!
+> https://files.nyu.edu/rz463/public/JavaMusicSystems/JSimon/
+> 
+> 
+> Eric Humphrey ? Soniflyer: Making Generative Music from Real-time Twitter Activity
+> An applet is developed to observer real user behavior of Twitter to create both a dynamic and organic generative music application. The application listens for new status as they are posted in a set of pre-defined set of location throughout the globe. Users interactively assign a different location source to one of five channels, each offering slightly different JSyn patches and note generation algorithms
+> http://ejhumphrey.com/soniflyer-launch.html
+> 
+> 
+> Tyler Sawyer - Self-Modifying Score
+> My objective with this final project was to build a single measure in JScore and have it modify itself every single time it repeats. It will repeat many times, with the tempo increasing each time. As it repeats, attributes of both the notes and the JSyn Instrument will be manipulated as well.
+> https://files.nyu.edu/tws233/public/JavaMusicSystems/FinalProject.html
+> 
+> 
+> Andreas Sprotte-Hansen ? Wave Shaping
+> The initial idea for this project was to let the user create the content of a waveform from scratch and be able to manipulate it by a certain set of parameters. It is meant as an interactive tool that takes sound from a basic raw shape and turns it into sounds with complex textures and some interesting synthesis results. In the application, the user is able to choose a waveform to use as the table of samples to manipulate. A number of different parameters are available for the use to manipulate the chosen table with. It is meant as a real-time synthesis tool where you can alter the sound while you're hearing it.
+> 
+> 
+> Oriol Nieto ? Guitaptop: Adding Expression to Laptop Generated Music
+> We present a new instrument called Guitaptop that synthesizes music by making use of an accelerometer and a mouse trackpad. This instrument will enhance compositions with richer expression by creating music by tilting the laptop and sliding fingers on the trackpad instead of just pressing buttons. This instrument can create different recordings by putting them into different tracks. It also allows to save the composition as a wave file and to play some background beats to get inspiration while creating a new piece. Future work should be focused on creating an Applet out of it to have an online version of the instrument and to be able to choose from different sounds, and add other new features.
+> 
+> _______________________________________________
+> jmsl mailing list
+> jmsl at music.columbia.edu
+> http://music.columbia.edu/mailman/listinfo/jmsl
+
+--
+informally - John Eacott
+07950 953 852
+www.informal.org
+
+
+
+
+
+
+From jmsl at music.columbia.edu  Tue Jan  4 15:58:12 2011
+From: jmsl at music.columbia.edu (Java Music Specification Language)
+Date: Tue, 4 Jan 2011 15:58:12 -0500 (EST)
+Subject: [jmsl] Java Music Systems at NYU, final projects Fall 2010
+In-Reply-To: <mailman.416.1294071216.191.jmsl@music.columbia.edu>
+References: <mailman.416.1294071216.191.jmsl@music.columbia.edu>
+Message-ID: <mailman.494.1294174717.191.jmsl@music.columbia.edu>
+
+Hi Nick,
+
+
+
+"Ali Nazima Ergun - Sonic Game of Life" was the only one that I could get to run correctly, but I have all the old native JSyn removed from my computers.
+
+"Sonic Game of Life" runs really well with pure jsyn java. It is the best implementation of JMSL that I have ever seen. Very Good.
+
+
+
+"Project Gutenberg Sonifier" runs with PJJ, but getting books from PG, or any HTML website, didn't work too well. There should be an option to directly paste text somewhere.
+
+
+John Clavin
+
+
+
+
+
+
+
+
+
+
+-----Original Message-----
+From: Java Music Specification Language <jmsl at music.columbia.edu>
+To: jmsl <jmsl at music.columbia.edu>; jsyn <jsyn at music.columbia.edu>
+Sent: Mon, Jan 3, 2011 3:13 am
+Subject: [jmsl] Java Music Systems at NYU, final projects Fall 2010
+
+
+On Dec 7, 2010 Nick Didkovsky?s Java Music Systems class in the Music 
+Technology Department at NYU?s Steinhard School met to present final 
+projects.
+All projects were programmed in Java and used either Java Music 
+Specification Language or JSyn or both.
+A summary of each of the projects follows. Some are applets and provide 
+a URL where you can try them out.
+Enjoy!
+Nick Didkovsky
+
+Ali Nazima Ergun - Sonic Game of Life
+Computer generated music often takes advantage of interesting mathematical
+principles, series and algorithms (such as Fibonacci series, or the 
+Mandelbrot set), to explore sound that can be generated from 
+mathematically interesting data sets. Game of Life, a "cellular 
+automaton" devised by British mathematician John Horton Conway is an 
+example I have decided to explore in terms of sonic opportunities for 
+this project.
+https://files.nyu.edu/ane220/public/JavaMusic2010/final.html
+
+
+Braxton Boren ? Project Gutenberg Sonifier
+This is an applet designed to generate background music to go along with 
+a book. To input your book, go to Project Gutenberg and find the URL of 
+a .html or .txt version of any text file. Input the URL into the applet 
+to hear the text sonified.
+https://files.nyu.edu/bbb259/public/braxtonboren/programmusic.html
+
+
+Brandon Glasgow ? Pyramid Scheme
+Pyramid Scheme is a self altering compositional program created using 
+the Java-based Music Systems JMSL, JSyn, and Wire. It uses a set melody 
+and builds layers on top of it. The following layers can either create 
+new melodies or alter the melodies in layers below them. Each layer is 
+shorter than the previous layer, so that when the entire piece is 
+played, the music follows a pyramid-like structure.
+
+
+Marc Harbatkin - A Probability Platform
+The Probability Platform is intended to be a vehicle used to explore the 
+role and effect of probability in the generation of music. As such, it 
+lays the foundation of an infrastructure that employs both JSYN and JMSL 
+to generate and modify a stream of music based on a process of random 
+selection that governed by the interactive selection of distributions 
+and their associated parameter values.
+Source code:
+https://files.nyu.edu/mph303/public/JavaMusicSystems/JMSProject
+
+
+Alan Johnson ? A Java System For Scoring And Producing Music Using 
+Dynamic Tuning
+In its simplest sense, my project is a tuning library for converting 
+pitch to frequency, subject to a given tuning. The most interesting 
+aspect of this library is that it facilitates gradual changes or 
+modulations between tunings, a process known as dynamic tuning. 
+Specifically, the project focuses on the tunings used in common practice 
+era music, which are based the concept of diatonic function. I also 
+created a file format for describing musical events and tuning changes, 
+a parser for this file format, and an application that uses JMSL and 
+JSyn to render compositions into dynamically
+
+
+Trevor Murray - Trevor?s Super Special Sentence Sonifier
+I created a Java applet that turns words into a piece of music. The user 
+provides the sentences and selects either a major or minor tonality, and 
+the applet does the rest. Each letter corresponds to a generated note, 
+determining both the note?s pitch and duration. A complete score of the 
+generated piece is is displayed using JMSL?s Score.
+
+
+Kimberly Powell - Photo Music
+The purpose of my final project was to take a photograph chosen by a 
+user of my Java program and create randomly generated music. This music 
+would be created by taking data values from the picture and using them 
+with JMSL to create music notes of certain pitches. The music would play 
+back to the user as it was being generated using an instrument 
+previously designed and written into the source code of my program. The 
+user could also save this music to a .WAV file.
+
+
+Kevin Salchert ? Game Engine Tester
+Kevin developed some proof-of-concept sound effects for a game engine 
+that solved common problems such as footsteps getting closer and farther 
+away from the user, engines revving, accelerating, and decelerating, 
+with efficiency and veracity as paramount design concerns.
+
+
+Kenneth Swan - JMSL Melodic Line Generator
+A JMSL based program that randomly produces a different melodic line of 
+music every time it is run. This line can be generated in a variety of 
+keys, but is designed to always make sense melodically depending on 
+which key is chosen. In this way a new unique piece of music is written 
+every time, but always sounds melodically correct.
+
+
+Ross Ziegler ? JSimon Memory Game
+Try to follow the pattern of blinking lights/beeping sounds for as long 
+as you can. If you can do it long enough, you win!
+https://files.nyu.edu/rz463/public/JavaMusicSystems/JSimon/
+
+
+Eric Humphrey ? Soniflyer: Making Generative Music from Real-time 
+Twitter Activity
+An applet is developed to observer real user behavior of Twitter to 
+create both a dynamic and organic generative music application. The 
+application listens for new status as they are posted in a set of 
+pre-defined set of location throughout the globe. Users interactively 
+assign a different location source to one of five channels, each 
+offering slightly different JSyn patches and note generation algorithms
+http://ejhumphrey.com/soniflyer-launch.html
+
+
+Tyler Sawyer - Self-Modifying Score
+My objective with this final project was to build a single measure in 
+JScore and have it modify itself every single time it repeats. It will 
+repeat many times, with the tempo increasing each time. As it repeats, 
+attributes of both the notes and the JSyn Instrument will be manipulated 
+as well.
+https://files.nyu.edu/tws233/public/JavaMusicSystems/FinalProject.html
+
+
+Andreas Sprotte-Hansen ? Wave Shaping
+The initial idea for this project was to let the user create the content 
+of a waveform from scratch and be able to manipulate it by a certain set 
+of parameters. It is meant as an interactive tool that takes sound from 
+a basic raw shape and turns it into sounds with complex textures and 
+some interesting synthesis results. In the application, the user is able 
+to choose a waveform to use as the table of samples to manipulate. A 
+number of different parameters are available for the use to manipulate 
+the chosen table with. It is meant as a real-time synthesis tool where 
+you can alter the sound while you're hearing it.
+
+
+Oriol Nieto ? Guitaptop: Adding Expression to Laptop Generated Music
+We present a new instrument called Guitaptop that synthesizes music by 
+making use of an accelerometer and a mouse trackpad. This instrument 
+will enhance compositions with richer expression by creating music by 
+tilting the laptop and sliding fingers on the trackpad instead of just 
+pressing buttons. This instrument can create different recordings by 
+putting them into different tracks. It also allows to save the 
+composition as a wave file and to play some background beats to get 
+inspiration while creating a new piece. Future work should be focused on 
+creating an Applet out of it to have an online version of the instrument 
+and to be able to choose from different sounds, and add other new features.
+
+_______________________________________________
+jmsl mailing list
+jmsl at music.columbia.edu
+http://music.columbia.edu/mailman/listinfo/jmsl
+
+
+ 
+
