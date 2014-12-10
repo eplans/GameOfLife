@@ -1,0 +1,16 @@
+LINKS
+
+Jun Hee Lee:  Conway music (2012) - http://www.junheelee.com/pf/works.html
+				java jsyn
+
+Jim Bumgardner: jbum / syd - https://github.com/jbum/Syd
+				also, A musical realization of the motion graphics of John Whitney as described in his book "digital harmony"  - http://whitneymusicbox.org/
+
+Slashdot Forum on Cellular Automata and Music using Java:
+				http://developers.slashdot.org/story/04/05/20/0143239/cellular-automata-and-music-using-java
+
+Computational Intelligence for Agent-based Systems:
+ 				edited by Raymond S.T. Lee, Vincenzo Loia	(book)							
+
+HARP - A System for Intelligent Composer’s Assistance:
+				http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=84839 (need to be on campus VPN) for this.
