@@ -1,0 +1,10 @@
+
+
+Generative processes and the electronic arts
+Alan Dorin  a1
+a1 Center for Electronic Media Art, School of Computer Science and Software Engineering, Monash University, Clayton, Australia 3800 E-mail: aland@cs.monash.edu.au
+
+Abstract
+This paper gives a personal perspective on the application and relevance of generative processes to art production. This view is that of a computer programmer, rather than that of a user of computer programs written (or hardware constructed) by others. The programmer is in the unique position of being able to describe and manipulate abstract processes which may be used as a unique means of artistic expression. This gives a greater amount of freedom to the programmer/artist than is the case when he or she is limited by programmed procedures defined by others.
+Prior to the development of a formal means of specifying visual and aural events, a concrete machine or set of rules for their manipulation and a means of bringing these representations back into the world as physical events, abstract processes were things to be contemplated but not experienced. Musical and spatial notations employed by artists, engineers and others, in concert with the programming of computing hardware, have opened the way for those who wish to manipulate processes in their artistic practice.
+In order to focus study and practice in the area of such generative computer art, the Center for Electronic Media Art (CEMA) has been established in Melbourne, Australia. The Center has spawned an international conference series on generative/process-based electronic art called Iteration. The perceived roles of the Center and Iteration conferences are discussed in this paper.
