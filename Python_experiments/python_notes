@@ -1,0 +1,25 @@
+Control-D to exit python
+
+Install pyo
+
+Brew
+Python
+pip 
+
+METHOD:
+pip install pygame
+easy_install mercurial
+brew install sdl sdl_image sdl_mixer sdl_ttf
+sudo pip install hg+http://bitbucket.org/pygame/pygame
+
+Download this guy's patch: http://trevorappleton.blogspot.co.uk/2013/07/python-game-of-life-alternative-starts.html
+run from terminal - python [name of file]
+
+Install pyo:
+Go here: http://ajaxsoundstudio.com/software/pyo/  scroll down to sources.
+Download and unzip. cd into folder, then run:
+sudo python setup.py build --use-coreaudio
+
+Learn PYO - used as engine for Cecilia.  
+
+http://ajaxsoundstudio.com/software/pyo/
