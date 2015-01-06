@@ -16,3 +16,5 @@ HARP - A System for Intelligent Composer’s Assistance:
 				http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=84839 (need to be on campus VPN) for this.
 
 Python link: http://trevorappleton.blogspot.co.uk/2013/07/python-game-of-life.html
+
+http://natureofcode.com/book/chapter-7-cellular-automata/
